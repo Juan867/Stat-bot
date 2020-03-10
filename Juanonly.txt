@@ -1,3 +1,9 @@
-this is your spot JUAN
-
-update
+def mean(*args):
+    arg = len(args)
+    if arg > 0 :
+        sum = 0
+        for elem in args :
+            sum += elem
+        return sum / arg
+    else:
+        return 0
