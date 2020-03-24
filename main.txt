@@ -1,1 +1,4 @@
+import numpy as np
 
+def std(list):
+    return np.std([num])
